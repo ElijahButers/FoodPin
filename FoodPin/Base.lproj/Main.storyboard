@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="YRx-KK-WEH">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="YRx-KK-WEH" customClass="RestaurantTableViewCell" customModule="FoodPin" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YRx-KK-WEH" id="Bf8-4v-0vr">
@@ -68,6 +68,12 @@
                                         <constraint firstItem="rbI-hF-2vW" firstAttribute="leading" secondItem="Bf8-4v-0vr" secondAttribute="leading" constant="6" id="eWL-m2-i3s"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="locationLabel" destination="1aC-L8-hn9" id="3Cl-Tj-WXu"/>
+                                    <outlet property="nameLabel" destination="fV0-pX-8jr" id="sjU-fh-2wM"/>
+                                    <outlet property="thumbnailImageView" destination="VnF-T1-Hrs" id="YEZ-E6-IQO"/>
+                                    <outlet property="typeLabel" destination="7VJ-uP-1tw" id="eKN-6T-bTP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

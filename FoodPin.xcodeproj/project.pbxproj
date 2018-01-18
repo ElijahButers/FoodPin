@@ -58,8 +58,8 @@
 			children = (
 				E259B286200FAA3400427CE4 /* AppDelegate.swift */,
 				E259B28A200FAA3400427CE4 /* Main.storyboard */,
-				E23F624A20112384001B0853 /* RestaurantTableViewCell.swift */,
 				E259B298200FACC300427CE4 /* RestaurantTableViewController.swift */,
+				E23F624A20112384001B0853 /* RestaurantTableViewCell.swift */,
 				E259B28D200FAA3400427CE4 /* Assets.xcassets */,
 				E259B28F200FAA3400427CE4 /* LaunchScreen.storyboard */,
 				E259B292200FAA3400427CE4 /* Info.plist */,
