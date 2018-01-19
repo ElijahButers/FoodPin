@@ -28,7 +28,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rbI-hF-2vW">
                                             <rect key="frame" x="6" y="2" width="369" height="76"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VnF-T1-Hrs">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VnF-T1-Hrs">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="76"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="76" id="eLQ-6u-4pM"/>
@@ -84,7 +84,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7tz-yT-xgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="213.59999999999999" y="-13.043478260869566"/>
+            <point key="canvasLocation" x="218" y="-211"/>
         </scene>
     </scenes>
 </document>
