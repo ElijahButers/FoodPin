@@ -85,6 +85,8 @@ class RestaurantTableViewController: UITableViewController {
         })
         optionMenu.addAction(isVisitedAction)
         self.present(optionMenu, animated: true, completion: nil)
+        
+        tableView.deselectRow(at: indexPath, animated: false)
     }
     
 
