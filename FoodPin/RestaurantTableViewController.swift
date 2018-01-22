@@ -64,6 +64,7 @@ class RestaurantTableViewController: UITableViewController {
         cell.thumbnailImageView.clipsToBounds = true
         cell.locationLabel.text = restaurantLocations[indexPath.row]
         cell.typeLabel.text = restaurantTypes[indexPath.row]
+        cell.accessoryType = restaurantIsVisited[indexPath.row] ? .checkmark : .none
 
         return cell
     }
@@ -81,10 +82,12 @@ class RestaurantTableViewController: UITableViewController {
         }
         let callAction = UIAlertAction(title: "Call" + "123-000-\(indexPath.row)", style: .default, handler: callActionHandler)
         optionMenu.addAction(callAction)
-        let isVisitedAction = UIAlertAction(title: "I've been here", style: .default, handler: { (action: UIAlertAction!) -> Void in
+        let isVisitedTitle = restaurantIsVisited[indexPath.row] ? "I've never been before" : "I've been here"
+        let isVisitedAction = UIAlertAction(title: isVisitedTitle, style: .default, handler: { (action: UIAlertAction!) -> Void in
             let cell = tableView.cellForRow(at: indexPath)
-            cell?.accessoryType = .checkmark
-            self.restaurantIsVisited[indexPath.row] = true
+            self.restaurantIsVisited[indexPath.row] = self.restaurantIsVisited[indexPath.row] ? false : true
+            cell?.accessoryType = self.restaurantIsVisited[indexPath.row] ? .checkmark : .none
+            
         })
         optionMenu.addAction(isVisitedAction)
         self.present(optionMenu, animated: true, completion: nil)
