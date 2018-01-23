@@ -109,6 +109,11 @@ class RestaurantTableViewController: UITableViewController {
         tableView.deleteRows(at: [indexPath], with: .fade)
     }
     
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        
+        
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
