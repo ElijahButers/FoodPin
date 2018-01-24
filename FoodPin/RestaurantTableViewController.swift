@@ -119,7 +119,10 @@ class RestaurantTableViewController: UITableViewController {
             self.tableView.deleteRows(at: [indexPath], with: .fade)
         })
         
-        return[shareAction, deleteAction]
+        shareAction.backgroundColor = UIColor(red: 28.0/255.0, green: 165.0/255.0, blue: 253.0/255.0, alpha: 1)
+        deleteAction.backgroundColor = UIColor(red: 202.0/255.0, green: 202.0/255.0, blue: 203.0/255.0, alpha: 1)
+        
+        return[deleteAction, shareAction]
     }
     
 
