@@ -101,8 +101,10 @@ class RestaurantTableViewController: UITableViewController {
         let shareAction = UITableViewRowAction(style: .default, title: "Share", handler: { (action, indexPath) -> Void in
             
             let defaultText = "Just check in at" + self.restaurantNames[indexPath.row]
-            let activityController = UIActivityViewController(activityItems: [defaultText], applicationActivities: nil)
-            self.present(activityController, animated: true, completion: nil)
+            if let imageToShare = UIImage(named: self.restaurantImages[indexPath.row]) {
+                let activityController = UIActivityViewController(activityItems: [defaultText, imageToShare], applicationActivities: nil)
+                self.present(activityController, animated: true, completion: nil)
+            }
         })
         
         // Delete button
