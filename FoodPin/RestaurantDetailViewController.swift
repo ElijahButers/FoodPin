@@ -10,6 +10,10 @@ import UIKit
 
 class RestaurantDetailViewController: UIViewController {
 
+    @IBOutlet var restaurantImageView: UIImageView!
+    
+    var restaurantImage = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
