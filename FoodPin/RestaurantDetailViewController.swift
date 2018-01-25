@@ -11,8 +11,14 @@ import UIKit
 class RestaurantDetailViewController: UIViewController {
 
     @IBOutlet var restaurantImageView: UIImageView!
+    @IBOutlet weak var restaurantNameLabel: UILabel!
+    @IBOutlet weak var restaurantTypeLabel: UILabel!
+    @IBOutlet weak var restaurantLocationLabel: UILabel!
     
     var restaurantImage = ""
+    var restaurantNameText: String = ""
+    var restaurantTypeText: String = ""
+    var restaurantLocationText: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()

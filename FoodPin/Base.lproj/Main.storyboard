@@ -141,6 +141,9 @@
                     </view>
                     <connections>
                         <outlet property="restaurantImageView" destination="QuE-wa-ygg" id="HjT-f5-xnc"/>
+                        <outlet property="restaurantLocationLabel" destination="pHO-Ky-7bF" id="5iO-Kj-KTa"/>
+                        <outlet property="restaurantNameLabel" destination="3QY-Zg-FaZ" id="1ua-6C-qSA"/>
+                        <outlet property="restaurantTypeLabel" destination="IRQ-SJ-hsr" id="z8A-xb-wSR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iy5-MZ-Gl7" userLabel="First Responder" sceneMemberID="firstResponder"/>
