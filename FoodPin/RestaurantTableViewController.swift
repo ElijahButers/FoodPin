@@ -77,7 +77,7 @@ class RestaurantTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return restaurantNames.count
+        return restaurants.count
     }
 
     
@@ -85,13 +85,13 @@ class RestaurantTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! RestaurantTableViewCell
 
         // Configure the cell...
-        cell.nameLabel.text = restaurantNames[indexPath.row]
-        cell.thumbnailImageView.image = UIImage(named: restaurantImages[indexPath.row])
+        cell.nameLabel.text = restaurants[indexPath.row].name
+        cell.thumbnailImageView.image = UIImage(named: restaurants[indexPath.row].image)
         cell.thumbnailImageView.layer.cornerRadius = 30
         cell.thumbnailImageView.clipsToBounds = true
-        cell.locationLabel.text = restaurantLocations[indexPath.row]
-        cell.typeLabel.text = restaurantTypes[indexPath.row]
-        cell.accessoryType = restaurantIsVisited[indexPath.row] ? .checkmark : .none
+        cell.locationLabel.text = restaurants[indexPath.row].location
+        cell.typeLabel.text = restaurants[indexPath.row].type
+        cell.accessoryType = restaurants[indexPath.row].isVisited ? .checkmark : .none
 
         return cell
     }
