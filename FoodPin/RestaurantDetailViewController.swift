@@ -11,9 +11,6 @@ import UIKit
 class RestaurantDetailViewController: UIViewController {
 
     @IBOutlet var restaurantImageView: UIImageView!
-    @IBOutlet weak var restaurantNameLabel: UILabel!
-    @IBOutlet weak var restaurantTypeLabel: UILabel!
-    @IBOutlet weak var restaurantLocationLabel: UILabel!
     
     var restaurant: Restaurant!
     
@@ -22,9 +19,6 @@ class RestaurantDetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         restaurantImageView.image = UIImage(named: restaurant.image)
-        restaurantNameLabel.text = restaurant.name
-        restaurantTypeLabel.text = restaurant.type
-        restaurantLocationLabel.text = restaurant.location
     }
 
     override func didReceiveMemoryWarning() {
