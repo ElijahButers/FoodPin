@@ -15,6 +15,7 @@
 		E259B299200FACC300427CE4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259B298200FACC300427CE4 /* RestaurantTableViewController.swift */; };
 		E262FE2E201B5DF000460F43 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262FE2D201B5DF000460F43 /* Restaurant.swift */; };
 		E27CB11E2018CBA20057BC9A /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CB11D2018CBA20057BC9A /* RestaurantDetailViewController.swift */; };
+		E2802CD6201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E259B298200FACC300427CE4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		E262FE2D201B5DF000460F43 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		E27CB11D2018CBA20057BC9A /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E23F624A20112384001B0853 /* RestaurantTableViewCell.swift */,
 				E27CB11D2018CBA20057BC9A /* RestaurantDetailViewController.swift */,
 				E262FE2D201B5DF000460F43 /* Restaurant.swift */,
+				E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */,
 				E259B28D200FAA3400427CE4 /* Assets.xcassets */,
 				E259B28F200FAA3400427CE4 /* LaunchScreen.storyboard */,
 				E259B292200FAA3400427CE4 /* Info.plist */,
@@ -148,6 +151,7 @@
 				E262FE2E201B5DF000460F43 /* Restaurant.swift in Sources */,
 				E259B299200FACC300427CE4 /* RestaurantTableViewController.swift in Sources */,
 				E23F624B20112384001B0853 /* RestaurantTableViewCell.swift in Sources */,
+				E2802CD6201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift in Sources */,
 				E27CB11E2018CBA20057BC9A /* RestaurantDetailViewController.swift in Sources */,
 				E259B287200FAA3400427CE4 /* AppDelegate.swift in Sources */,
 			);
