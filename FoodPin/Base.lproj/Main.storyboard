@@ -97,54 +97,9 @@
                     <view key="view" contentMode="scaleToFill" id="Nhq-o4-hQW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QuE-wa-ygg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QY-Zg-FaZ">
-                                <rect key="frame" x="117" y="103" width="140" height="21"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHO-Ky-7bF">
-                                <rect key="frame" x="123" y="161" width="145" height="19.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRQ-SJ-hsr">
-                                <rect key="frame" x="127" y="139" width="120" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="IRQ-SJ-hsr" firstAttribute="top" secondItem="3QY-Zg-FaZ" secondAttribute="bottom" constant="15" id="06d-nu-3fL"/>
-                            <constraint firstItem="3QY-Zg-FaZ" firstAttribute="top" secondItem="ZQa-B2-yq3" secondAttribute="top" constant="39" id="Gdy-AH-kjB"/>
-                            <constraint firstItem="IRQ-SJ-hsr" firstAttribute="leading" secondItem="ZQa-B2-yq3" secondAttribute="leading" constant="127" id="HF4-QX-CoQ"/>
-                            <constraint firstItem="QuE-wa-ygg" firstAttribute="leading" secondItem="ZQa-B2-yq3" secondAttribute="leading" id="LhG-bW-YB3"/>
-                            <constraint firstItem="ZQa-B2-yq3" firstAttribute="trailing" secondItem="3QY-Zg-FaZ" secondAttribute="trailing" constant="118" id="MkM-7a-HXP"/>
-                            <constraint firstItem="ZQa-B2-yq3" firstAttribute="trailing" secondItem="pHO-Ky-7bF" secondAttribute="trailing" constant="107" id="NOt-dq-Tdp"/>
-                            <constraint firstItem="ZQa-B2-yq3" firstAttribute="trailing" secondItem="IRQ-SJ-hsr" secondAttribute="trailing" constant="128" id="UOG-XI-aRK"/>
-                            <constraint firstItem="QuE-wa-ygg" firstAttribute="bottom" secondItem="ZQa-B2-yq3" secondAttribute="bottom" id="Wut-kG-ppj"/>
-                            <constraint firstItem="QuE-wa-ygg" firstAttribute="trailing" secondItem="ZQa-B2-yq3" secondAttribute="trailing" id="Y6K-sv-zLp"/>
-                            <constraint firstItem="pHO-Ky-7bF" firstAttribute="leading" secondItem="ZQa-B2-yq3" secondAttribute="leading" constant="123" id="mEs-Dm-Yj2"/>
-                            <constraint firstItem="pHO-Ky-7bF" firstAttribute="top" secondItem="IRQ-SJ-hsr" secondAttribute="bottom" constant="4" id="of9-P5-gFX"/>
-                            <constraint firstItem="ZQa-B2-yq3" firstAttribute="bottom" secondItem="pHO-Ky-7bF" secondAttribute="bottom" constant="486.5" id="t93-LP-FtC"/>
-                            <constraint firstItem="3QY-Zg-FaZ" firstAttribute="leading" secondItem="ZQa-B2-yq3" secondAttribute="leading" constant="117" id="vQ8-gL-vbG"/>
-                            <constraint firstItem="QuE-wa-ygg" firstAttribute="top" secondItem="Nhq-o4-hQW" secondAttribute="top" id="wnb-eO-yeU"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZQa-B2-yq3"/>
                     </view>
-                    <connections>
-                        <outlet property="restaurantImageView" destination="QuE-wa-ygg" id="HjT-f5-xnc"/>
-                        <outlet property="restaurantLocationLabel" destination="pHO-Ky-7bF" id="5iO-Kj-KTa"/>
-                        <outlet property="restaurantNameLabel" destination="3QY-Zg-FaZ" id="1ua-6C-qSA"/>
-                        <outlet property="restaurantTypeLabel" destination="IRQ-SJ-hsr" id="z8A-xb-wSR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iy5-MZ-Gl7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
