@@ -139,6 +139,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="TRx-5O-A1c" id="9ry-aN-1Gz"/>
+                                    <outlet property="delegate" destination="TRx-5O-A1c" id="JV2-re-Vxw"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
