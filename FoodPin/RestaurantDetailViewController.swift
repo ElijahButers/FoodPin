@@ -57,6 +57,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
             cell.fieldLabel.text = ""
             cell.valueLabel.text = ""
         }
+        cell.backgroundColor = UIColor.clear
         
         return cell
     }
