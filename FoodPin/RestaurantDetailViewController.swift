@@ -11,6 +11,7 @@ import UIKit
 class RestaurantDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet var restaurantImageView: UIImageView!
+    @IBOutlet var tableView: UITableView!
     
     var restaurant: Restaurant!
     
