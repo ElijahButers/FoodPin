@@ -52,6 +52,11 @@ class RestaurantTableViewController: UITableViewController {
     ]
     
     var restaurantIsVisited = [Bool](repeating: false, count: 21)
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
