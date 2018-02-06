@@ -138,6 +138,8 @@
                                             <constraints>
                                                 <constraint firstItem="NbG-MP-jom" firstAttribute="centerY" secondItem="sBm-X2-lMA" secondAttribute="centerY" id="5r9-8N-ylj"/>
                                                 <constraint firstAttribute="trailing" secondItem="NbG-MP-jom" secondAttribute="trailing" id="6nE-sa-vF3"/>
+                                                <constraint firstItem="NbG-MP-jom" firstAttribute="top" secondItem="sBm-X2-lMA" secondAttribute="top" constant="7" id="RBX-6S-QkL"/>
+                                                <constraint firstAttribute="bottom" secondItem="NbG-MP-jom" secondAttribute="bottom" constant="8" id="i0G-1l-azz"/>
                                                 <constraint firstItem="NbG-MP-jom" firstAttribute="leading" secondItem="sBm-X2-lMA" secondAttribute="leading" constant="15" id="rd6-lC-Jjp"/>
                                             </constraints>
                                         </tableViewCellContentView>
