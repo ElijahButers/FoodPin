@@ -155,8 +155,11 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jG-wi-Ks7">
-                                <rect key="frame" x="329" y="64" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="347" y="64" width="28" height="28"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="check">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -198,4 +201,7 @@
             <point key="canvasLocation" x="-223" y="-212"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="check" width="28" height="28"/>
+    </resources>
 </document>
