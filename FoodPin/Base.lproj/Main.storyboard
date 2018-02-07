@@ -197,43 +197,42 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cafeloisl" translatesAutoresizingMaskIntoConstraints="NO" id="ZY7-3P-9kl">
                                 <rect key="frame" x="0.0" y="-7" width="375" height="674"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0FZ-YT-I6H">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0FZ-YT-I6H">
                                 <rect key="frame" x="53" y="40" width="269" height="420"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="barrafina" translatesAutoresizingMaskIntoConstraints="NO" id="U5q-t8-kA2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrafina" translatesAutoresizingMaskIntoConstraints="NO" id="U5q-t8-kA2">
                                         <rect key="frame" x="0.0" y="0.0" width="269" height="200"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="FrD-AI-ATO"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've dined here. What do you think?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKf-MB-6QE">
-                                        <rect key="frame" x="8" y="208" width="253" height="65"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've dined here. What do you think?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKf-MB-6QE">
+                                        <rect key="frame" x="8" y="208" width="253" height="64.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="S1e-9l-mm7">
-                                        <rect key="frame" x="70" y="281" width="121" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="S1e-9l-mm7">
+                                        <rect key="frame" x="8" y="288" width="253" height="122"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkw-qp-aWE">
-                                                <rect key="frame" x="0.0" y="0.0" width="121" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkw-qp-aWE">
+                                                <rect key="frame" x="0.0" y="0.0" width="253" height="37.5"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                                 <state key="normal" title="Absolutely love it">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-Zc-EnS">
-                                                <rect key="frame" x="0.0" y="37" width="121" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-Zc-EnS">
+                                                <rect key="frame" x="0.0" y="42.5" width="253" height="37"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                                 <state key="normal" title="Good">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-c5-QFF">
-                                                <rect key="frame" x="0.0" y="74" width="121" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-c5-QFF">
+                                                <rect key="frame" x="0.0" y="84.5" width="253" height="37.5"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                                 <state key="normal" title="I don't like it">
@@ -244,11 +243,27 @@
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="S1e-9l-mm7" firstAttribute="leading" secondItem="0FZ-YT-I6H" secondAttribute="leading" constant="8" id="CmP-e1-t7A"/>
+                                    <constraint firstAttribute="trailing" secondItem="U5q-t8-kA2" secondAttribute="trailing" id="DlZ-UO-M8Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="S1e-9l-mm7" secondAttribute="trailing" constant="8" id="FIU-uR-0FP"/>
+                                    <constraint firstItem="S1e-9l-mm7" firstAttribute="top" secondItem="zKf-MB-6QE" secondAttribute="bottom" constant="15" id="O0X-89-obO"/>
+                                    <constraint firstAttribute="height" constant="420" id="XJf-1A-DcA"/>
+                                    <constraint firstItem="U5q-t8-kA2" firstAttribute="top" secondItem="0FZ-YT-I6H" secondAttribute="top" id="c9c-rw-Fl9"/>
+                                    <constraint firstAttribute="bottom" secondItem="S1e-9l-mm7" secondAttribute="bottom" constant="10" id="gbz-Iz-IRU"/>
+                                    <constraint firstAttribute="trailing" secondItem="zKf-MB-6QE" secondAttribute="trailing" constant="8" id="lc4-AI-gDD"/>
+                                    <constraint firstItem="zKf-MB-6QE" firstAttribute="leading" secondItem="0FZ-YT-I6H" secondAttribute="leading" constant="8" id="mrQ-4V-hiW"/>
+                                    <constraint firstItem="U5q-t8-kA2" firstAttribute="leading" secondItem="0FZ-YT-I6H" secondAttribute="leading" id="owr-7H-hDd"/>
+                                    <constraint firstItem="zKf-MB-6QE" firstAttribute="top" secondItem="U5q-t8-kA2" secondAttribute="bottom" constant="8" id="ySx-Hr-dht"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ZY7-3P-9kl" secondAttribute="trailing" id="8ub-1b-zMO"/>
+                            <constraint firstItem="0FZ-YT-I6H" firstAttribute="top" secondItem="lOp-Vw-iYO" secondAttribute="top" constant="20" id="Hu0-Wg-4eH"/>
+                            <constraint firstItem="lOp-Vw-iYO" firstAttribute="trailing" secondItem="0FZ-YT-I6H" secondAttribute="trailing" constant="53" id="NKk-4X-pjr"/>
+                            <constraint firstItem="0FZ-YT-I6H" firstAttribute="leading" secondItem="lOp-Vw-iYO" secondAttribute="leading" constant="53" id="QOK-j0-MBS"/>
                             <constraint firstItem="ZY7-3P-9kl" firstAttribute="leading" secondItem="rxa-GN-dV1" secondAttribute="leading" id="U1E-PL-9JU"/>
                             <constraint firstItem="ZY7-3P-9kl" firstAttribute="bottom" secondItem="lOp-Vw-iYO" secondAttribute="bottom" id="l0I-c8-cOK"/>
                             <constraint firstItem="ZY7-3P-9kl" firstAttribute="top" secondItem="rxa-GN-dV1" secondAttribute="topMargin" constant="-27" id="mEN-8M-lKw"/>
