@@ -11,6 +11,7 @@ import UIKit
 class ReviewViewController: UIViewController {
 
     @IBOutlet var backgroundImageView: UIImageView!
+    @IBOutlet var containerView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
