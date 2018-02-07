@@ -244,15 +244,27 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grf-Fo-vBC">
+                                        <rect key="frame" x="245" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="99a-KM-Fam"/>
+                                            <constraint firstAttribute="width" constant="24" id="ULg-YV-Zcj"/>
+                                        </constraints>
+                                        <state key="normal" image="cross"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="grf-Fo-vBC" secondAttribute="trailing" id="6I0-TL-INo"/>
+                                    <constraint firstItem="grf-Fo-vBC" firstAttribute="top" secondItem="0FZ-YT-I6H" secondAttribute="top" id="8kL-8j-12I"/>
                                     <constraint firstItem="S1e-9l-mm7" firstAttribute="leading" secondItem="0FZ-YT-I6H" secondAttribute="leading" constant="8" id="CmP-e1-t7A"/>
                                     <constraint firstAttribute="trailing" secondItem="U5q-t8-kA2" secondAttribute="trailing" id="DlZ-UO-M8Z"/>
                                     <constraint firstAttribute="trailing" secondItem="S1e-9l-mm7" secondAttribute="trailing" constant="8" id="FIU-uR-0FP"/>
+                                    <constraint firstAttribute="trailing" secondItem="grf-Fo-vBC" secondAttribute="trailing" id="LKa-Ug-gxm"/>
                                     <constraint firstItem="S1e-9l-mm7" firstAttribute="top" secondItem="zKf-MB-6QE" secondAttribute="bottom" constant="15" id="O0X-89-obO"/>
                                     <constraint firstAttribute="height" constant="420" id="XJf-1A-DcA"/>
                                     <constraint firstItem="U5q-t8-kA2" firstAttribute="top" secondItem="0FZ-YT-I6H" secondAttribute="top" id="c9c-rw-Fl9"/>
+                                    <constraint firstItem="grf-Fo-vBC" firstAttribute="top" secondItem="0FZ-YT-I6H" secondAttribute="top" id="dMS-6x-zjX"/>
                                     <constraint firstAttribute="bottom" secondItem="S1e-9l-mm7" secondAttribute="bottom" constant="10" id="gbz-Iz-IRU"/>
                                     <constraint firstAttribute="trailing" secondItem="zKf-MB-6QE" secondAttribute="trailing" constant="8" id="lc4-AI-gDD"/>
                                     <constraint firstItem="zKf-MB-6QE" firstAttribute="leading" secondItem="0FZ-YT-I6H" secondAttribute="leading" constant="8" id="mrQ-4V-hiW"/>
@@ -301,5 +313,6 @@
         <image name="barrafina" width="448" height="448"/>
         <image name="cafeloisl" width="448" height="448"/>
         <image name="check" width="28" height="28"/>
+        <image name="cross" width="24" height="24"/>
     </resources>
 </document>
