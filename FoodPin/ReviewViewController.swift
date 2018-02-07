@@ -10,6 +10,8 @@ import UIKit
 
 class ReviewViewController: UIViewController {
 
+    @IBOutlet var backgroundImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

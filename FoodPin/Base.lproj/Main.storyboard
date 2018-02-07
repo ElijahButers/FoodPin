@@ -288,6 +288,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lOp-Vw-iYO"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="ZY7-3P-9kl" id="te3-uG-sgn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eiO-HL-dNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="aJB-Ru-cbJ" userLabel="Exit" sceneMemberID="exit"/>
