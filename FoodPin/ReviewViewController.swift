@@ -30,6 +30,12 @@ class ReviewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.containerView.transform = CGAffineTransform.identity
+        })
+    }
+    
 
     /*
     // MARK: - Navigation
