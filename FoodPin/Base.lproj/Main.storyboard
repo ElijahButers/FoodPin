@@ -225,6 +225,9 @@
                                                 <state key="normal" title="Absolutely love it">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="aJB-Ru-cbJ" kind="unwind" identifier="great" unwindAction="ratingButtonTappedWithSegue:" id="cKA-wp-rZZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-Zc-EnS">
                                                 <rect key="frame" x="0.0" y="42.5" width="253" height="37"/>
@@ -233,6 +236,9 @@
                                                 <state key="normal" title="Good">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="aJB-Ru-cbJ" kind="unwind" identifier="good" unwindAction="ratingButtonTappedWithSegue:" id="ZP5-Xt-oQy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLC-c5-QFF">
                                                 <rect key="frame" x="0.0" y="84.5" width="253" height="37.5"/>
@@ -241,6 +247,9 @@
                                                 <state key="normal" title="I don't like it">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="aJB-Ru-cbJ" kind="unwind" identifier="dislike" unwindAction="ratingButtonTappedWithSegue:" id="llw-df-sQb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
