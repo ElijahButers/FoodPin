@@ -80,7 +80,18 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     }
     
     @IBAction func ratingButtonTapped(segue: UIStoryboardSegue) {
-        
+        if let rating = segue.identifier {
+            
+            restaurant.isVisited = true
+            
+            switch rating {
+            case "great": restaurant.rating = "Absolutey love it. Must try!"
+            case "great": restaurant.rating = "Pretty good."
+            case "great": restaurant.rating = "I don't like it."
+            default: break
+            }
+        }
+        tableView.reloadData()
     }
     
     /*
