@@ -79,6 +79,10 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     
     }
     
+    @IBAction func ratingButtonTapped(segue: UIStoryboardSegue) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
