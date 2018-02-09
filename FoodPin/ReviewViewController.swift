@@ -17,14 +17,15 @@ class ReviewViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let blurEffect = UIBlurEffect(style: .regular)
+        let blurEffect = UIBlurEffect(style: .dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.bounds
         backgroundImageView.addSubview(blurEffectView)
-        
-        let scaleTransform = CGAffineTransform.init(scaleX: 0, y: 0)
-        let translateTransform = CGAffineTransform.init(translationX: 0, y: -1000)
-        containerView.transform = scaleTransform.concatenating(translateTransform)
+
+//        let scaleTransform = CGAffineTransform.init(scaleX: 0, y: 0)
+//        let translateTransform = CGAffineTransform.init(translationX: 0, y: -1000)
+//        let combineTransform = scaleTransform.concatenating(translateTransform)
+//        containerView.transform = combineTransform
     }
 
     override func didReceiveMemoryWarning() {
