@@ -13,6 +13,8 @@ class ReviewViewController: UIViewController {
     @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var containerView: UIView!
     
+    var restaurant: Restaurant!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
