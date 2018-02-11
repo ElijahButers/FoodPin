@@ -12,6 +12,7 @@ class ReviewViewController: UIViewController {
 
     @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var containerView: UIView!
+    @IBOutlet var restaurantImageView: UIImageView!
     
     var restaurant: Restaurant!
     
@@ -28,6 +29,10 @@ class ReviewViewController: UIViewController {
 //        let translateTransform = CGAffineTransform.init(translationX: 0, y: -1000)
 //        let combineTransform = scaleTransform.concatenating(translateTransform)
 //        containerView.transform = combineTransform
+        
+        if let restaurant = restaurant {
+            restaurantImageView.image = UIImage(named: restaurant.image)
+        }
     }
 
     override func didReceiveMemoryWarning() {
