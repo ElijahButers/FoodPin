@@ -28,7 +28,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector())
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(showMap))
         mapView.addGestureRecognizer(tapGestureRecognizer)
         
         restaurantImageView.image = UIImage(named: restaurant.image)
@@ -96,6 +96,10 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
             }
         }
         tableView.reloadData()
+    }
+    
+    @objc func showMap() {
+        performSegue(withIdentifier: "showMap", sender: self)
     }
     
     
