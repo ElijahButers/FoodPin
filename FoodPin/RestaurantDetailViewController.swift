@@ -28,6 +28,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector())
+        mapView.addGestureRecognizer(tapGestureRecognizer)
+        
         restaurantImageView.image = UIImage(named: restaurant.image)
         
         tableView.backgroundColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.2)
