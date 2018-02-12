@@ -185,6 +185,7 @@
                         <viewLayoutGuide key="safeArea" id="ZQa-B2-yq3"/>
                     </view>
                     <connections>
+                        <outlet property="mapView" destination="7A7-LU-7QZ" id="GS4-7B-aVS"/>
                         <outlet property="restaurantImageView" destination="aav-wu-ygs" id="Dwn-Fv-Fsh"/>
                         <outlet property="tableView" destination="NmU-EU-Gk2" id="EWw-sw-0pW"/>
                         <segue destination="Mcq-MI-cFH" kind="show" identifier="showMap" id="JRD-We-Avl"/>
