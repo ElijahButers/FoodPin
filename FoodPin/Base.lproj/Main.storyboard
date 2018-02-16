@@ -195,10 +195,10 @@
             </objects>
             <point key="canvasLocation" x="1404" y="-213.64317841079463"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="D8Z-qq-v4C">
             <objects>
-                <viewController id="Mcq-MI-cFH" sceneMemberID="viewController">
+                <viewController id="Mcq-MI-cFH" customClass="MapViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4a-rJ-HcW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
