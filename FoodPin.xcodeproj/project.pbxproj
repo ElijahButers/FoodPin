@@ -18,6 +18,7 @@
 		E27CB11E2018CBA20057BC9A /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CB11D2018CBA20057BC9A /* RestaurantDetailViewController.swift */; };
 		E2802CD6201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */; };
 		E2A72DCF202AECD1001A0CB1 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A72DCE202AECD1001A0CB1 /* ReviewViewController.swift */; };
+		E2D971772035B18D0037E8DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D971762035B18D0037E8DC /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E27CB11D2018CBA20057BC9A /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTableViewCell.swift; sourceTree = "<group>"; };
 		E2A72DCE202AECD1001A0CB1 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		E2D971762035B18D0037E8DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				E262FE2D201B5DF000460F43 /* Restaurant.swift */,
 				E2802CD5201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift */,
 				E2A72DCE202AECD1001A0CB1 /* ReviewViewController.swift */,
+				E2D971762035B18D0037E8DC /* MapViewController.swift */,
 				E259B28D200FAA3400427CE4 /* Assets.xcassets */,
 				E259B28F200FAA3400427CE4 /* LaunchScreen.storyboard */,
 				E259B292200FAA3400427CE4 /* Info.plist */,
@@ -175,6 +178,7 @@
 				E2802CD6201F6A2E00C9C501 /* RestaurantDetailTableViewCell.swift in Sources */,
 				E27CB11E2018CBA20057BC9A /* RestaurantDetailViewController.swift in Sources */,
 				E259B287200FAA3400427CE4 /* AppDelegate.swift in Sources */,
+				E2D971772035B18D0037E8DC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
