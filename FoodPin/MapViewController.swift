@@ -53,6 +53,29 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    // Annotations
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        let identifier = "myPin"
+        
+        if annotation.isKind(of: MKUserLocation.self) {
+            return nil
+        }
+        
+        // Reuse the annotation if possible
+        var annotationView: MKAnnotationView? = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKPinAnnotationView
+        
+        if annotationView == nil {
+            annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            annotationView?.canShowCallout = true
+        }
+        
+        let leftIconView = UIImageView(frame: CGRect.init(x: 0, y: 0, width: 53, height: 53))
+        leftIconView.image = UIImage(named: restaurant.image)
+        annotationView?.leftCalloutAccessoryView = leftIconView
+        
+        return annotationView
+    }
+    
 
     /*
     // MARK: - Navigation
