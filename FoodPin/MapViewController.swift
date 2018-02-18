@@ -17,6 +17,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mapView.delegate = self
 
         // Convert address to coordinate and annotate it on map
         let geoCoder = CLGeocoder()
