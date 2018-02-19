@@ -109,7 +109,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yMB-Vc-wJ8">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoalbum" translatesAutoresizingMaskIntoConstraints="NO" id="yMB-Vc-wJ8">
                                                     <rect key="frame" x="155" y="92" width="64" height="64"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="64" id="ubG-um-t3b"/>
@@ -138,9 +138,9 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZs-kB-R61">
-                                                    <rect key="frame" x="16" y="11" width="53" height="21"/>
+                                                    <rect key="frame" x="16" y="11" width="54" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="53" id="fZT-mH-kud"/>
+                                                        <constraint firstAttribute="width" constant="54" id="fZT-mH-kud"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -270,7 +270,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="605.60000000000002" y="-937.78110944527748"/>
+            <point key="canvasLocation" x="591" y="-938"/>
         </scene>
         <!--Restaurant Detail View Controller-->
         <scene sceneID="Ryz-39-PCA">
@@ -548,5 +548,6 @@
         <image name="cafeloisl" width="448" height="448"/>
         <image name="check" width="28" height="28"/>
         <image name="cross" width="24" height="24"/>
+        <image name="photoalbum" width="64" height="64"/>
     </resources>
 </document>
