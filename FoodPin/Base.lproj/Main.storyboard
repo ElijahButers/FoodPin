@@ -192,16 +192,42 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="MQD-li-1Ip">
-                                        <rect key="frame" x="0.0" y="394" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="MQD-li-1Ip">
+                                        <rect key="frame" x="0.0" y="394" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MQD-li-1Ip" id="jsD-Xs-k2s">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Restaurant Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lK2-XC-LXe">
+                                                    <rect key="frame" x="16" y="31" width="339" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="oOy-ek-kF6">
+                                                    <rect key="frame" x="16" y="11" width="87" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="87" id="2hX-Ly-eaK"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lK2-XC-LXe" firstAttribute="bottom" secondItem="jsD-Xs-k2s" secondAttribute="bottomMargin" id="47n-pI-zWl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="oOy-ek-kF6" secondAttribute="bottom" constant="29" id="AUC-97-LZH"/>
+                                                <constraint firstItem="lK2-XC-LXe" firstAttribute="top" secondItem="jsD-Xs-k2s" secondAttribute="topMargin" constant="20" id="W3B-jF-4Vk"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="top" secondItem="jsD-Xs-k2s" secondAttribute="topMargin" id="Y7R-Dv-sic"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="lK2-XC-LXe" secondAttribute="trailing" constant="4" id="bPX-uQ-8h5"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="lK2-XC-LXe" secondAttribute="leading" id="jiY-Yq-Te3"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="jsD-Xs-k2s" secondAttribute="leadingMargin" id="os3-EF-VZ6"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="J3j-h0-lLh">
-                                        <rect key="frame" x="0.0" y="438" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="466" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J3j-h0-lLh" id="hoJ-jx-GMM">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
