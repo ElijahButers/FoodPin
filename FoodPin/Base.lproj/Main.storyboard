@@ -85,7 +85,13 @@
                             <outlet property="delegate" destination="ZrI-MH-D7s" id="04D-vv-EPY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="FoodPin" id="Uzy-ZZ-baW"/>
+                    <navigationItem key="navigationItem" title="FoodPin" id="Uzy-ZZ-baW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="prg-pq-1M3">
+                            <connections>
+                                <segue destination="LEB-UP-FyP" kind="presentation" identifier="addRestaurant" id="aWk-W9-nkQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7tz-yT-xgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
