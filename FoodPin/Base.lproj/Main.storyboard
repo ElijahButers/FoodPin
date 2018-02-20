@@ -276,12 +276,16 @@
                     <navigationItem key="navigationItem" id="Qu7-B1-lwu">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XeV-05-940">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="gqd-Dx-onM" kind="unwind" unwindAction="unwindToHomeScreenWithSegue:" id="UJj-v8-i4t"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gqd-Dx-onM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1390" y="-945"/>
+            <point key="canvasLocation" x="1353" y="-939"/>
         </scene>
         <!--Restaurant Detail View Controller-->
         <scene sceneID="Ryz-39-PCA">
