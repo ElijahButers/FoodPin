@@ -273,7 +273,11 @@
                             <outlet property="delegate" destination="kRM-OA-YMa" id="me2-ox-XHy"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Qu7-B1-lwu"/>
+                    <navigationItem key="navigationItem" id="Qu7-B1-lwu">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XeV-05-940">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
