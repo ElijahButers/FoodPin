@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddRestaurantController: UITableViewController {
+class AddRestaurantController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
