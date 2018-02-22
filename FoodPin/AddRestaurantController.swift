@@ -46,6 +46,7 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
                 let imagePicker = UIImagePickerController()
                 imagePicker.allowsEditing = false
                 imagePicker.sourceType = .photoLibrary
+                imagePicker.delegate = self
                 
                 present(imagePicker, animated: true, completion: nil)
             }
