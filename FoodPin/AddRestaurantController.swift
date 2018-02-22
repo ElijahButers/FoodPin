@@ -29,6 +29,12 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
+        if let selectedIamge = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            photoImageView.image = selectedIamge
+            photoImageView.contentMode = .scaleAspectFill
+            photoImageView.clipsToBounds = true
+        }
+        dismiss(animated: true, completion: nil)
     }
 
     // MARK: - Table view data source
