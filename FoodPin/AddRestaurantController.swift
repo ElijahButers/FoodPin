@@ -71,4 +71,7 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
             }
         }
     }
+    
+    @IBAction func save(_ sender: UIBarButtonItem) {
+    }
 }
