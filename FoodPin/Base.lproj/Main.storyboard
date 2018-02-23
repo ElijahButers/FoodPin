@@ -141,9 +141,9 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZs-kB-R61">
-                                                    <rect key="frame" x="16" y="11" width="54" height="21"/>
+                                                    <rect key="frame" x="16" y="11" width="66" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="54" id="fZT-mH-kud"/>
+                                                        <constraint firstAttribute="width" constant="66" id="np4-qy-3Yn"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -151,13 +151,13 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="lZs-kB-R61" firstAttribute="top" secondItem="cgM-XJ-WlB" secondAttribute="topMargin" id="31f-VE-B8G"/>
-                                                <constraint firstItem="lZs-kB-R61" firstAttribute="leading" secondItem="f4L-Dz-NBH" secondAttribute="leading" id="3WQ-8i-XjV"/>
-                                                <constraint firstItem="lZs-kB-R61" firstAttribute="leading" secondItem="cgM-XJ-WlB" secondAttribute="leadingMargin" id="Drj-LE-d9j"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="lZs-kB-R61" secondAttribute="bottom" constant="29" id="MyY-13-Hsp"/>
+                                                <constraint firstItem="lZs-kB-R61" firstAttribute="leading" secondItem="f4L-Dz-NBH" secondAttribute="leading" id="9TN-uX-hxd"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="lZs-kB-R61" secondAttribute="bottom" constant="29" id="LM3-8v-QyN"/>
                                                 <constraint firstItem="f4L-Dz-NBH" firstAttribute="bottom" secondItem="cgM-XJ-WlB" secondAttribute="bottomMargin" id="QQd-dx-HXR"/>
+                                                <constraint firstItem="lZs-kB-R61" firstAttribute="top" secondItem="cgM-XJ-WlB" secondAttribute="topMargin" id="RhS-eE-eFA"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="f4L-Dz-NBH" secondAttribute="trailing" constant="4" id="Xj8-2r-Wr4"/>
                                                 <constraint firstItem="f4L-Dz-NBH" firstAttribute="top" secondItem="cgM-XJ-WlB" secondAttribute="topMargin" constant="20" id="kM1-pE-GXJ"/>
+                                                <constraint firstItem="lZs-kB-R61" firstAttribute="leading" secondItem="cgM-XJ-WlB" secondAttribute="leadingMargin" id="kkb-fq-3vY"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -177,7 +177,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibM-xh-IJN">
                                                     <rect key="frame" x="16" y="11" width="53" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="53" id="4L3-UM-XVV"/>
+                                                        <constraint firstAttribute="width" constant="53" id="ipd-hc-ytB"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -185,13 +185,13 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="leading" secondItem="w84-1i-3hL" secondAttribute="leadingMargin" id="FjS-u8-Ytl"/>
+                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="leading" secondItem="ffN-TN-byq" secondAttribute="leading" id="0gi-Qk-zmt"/>
+                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="top" secondItem="w84-1i-3hL" secondAttribute="topMargin" id="DWB-9j-6gD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ibM-xh-IJN" secondAttribute="bottom" constant="29" id="N6g-wq-lBm"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="ffN-TN-byq" secondAttribute="trailing" constant="4" id="ORV-6L-wXi"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="ibM-xh-IJN" secondAttribute="bottom" constant="29" id="Qp6-E7-t9E"/>
+                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="leading" secondItem="w84-1i-3hL" secondAttribute="leadingMargin" id="ZRG-9r-eIp"/>
                                                 <constraint firstItem="ffN-TN-byq" firstAttribute="bottom" secondItem="w84-1i-3hL" secondAttribute="bottomMargin" id="Zg2-2V-P3G"/>
                                                 <constraint firstItem="ffN-TN-byq" firstAttribute="top" secondItem="w84-1i-3hL" secondAttribute="topMargin" constant="20" id="c03-xt-Yhu"/>
-                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="leading" secondItem="ffN-TN-byq" secondAttribute="leading" id="waM-9G-Z1a"/>
-                                                <constraint firstItem="ibM-xh-IJN" firstAttribute="top" secondItem="w84-1i-3hL" secondAttribute="topMargin" id="xQO-RB-iBs"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -211,7 +211,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="oOy-ek-kF6">
                                                     <rect key="frame" x="16" y="11" width="87" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="87" id="2hX-Ly-eaK"/>
+                                                        <constraint firstAttribute="width" constant="87" id="1vl-Ed-qlG"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -220,12 +220,12 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="lK2-XC-LXe" firstAttribute="bottom" secondItem="jsD-Xs-k2s" secondAttribute="bottomMargin" id="47n-pI-zWl"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="oOy-ek-kF6" secondAttribute="bottom" constant="29" id="AUC-97-LZH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="oOy-ek-kF6" secondAttribute="bottom" constant="29" id="Mcq-l8-Zka"/>
                                                 <constraint firstItem="lK2-XC-LXe" firstAttribute="top" secondItem="jsD-Xs-k2s" secondAttribute="topMargin" constant="20" id="W3B-jF-4Vk"/>
-                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="top" secondItem="jsD-Xs-k2s" secondAttribute="topMargin" id="Y7R-Dv-sic"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="lK2-XC-LXe" secondAttribute="trailing" constant="4" id="bPX-uQ-8h5"/>
-                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="lK2-XC-LXe" secondAttribute="leading" id="jiY-Yq-Te3"/>
-                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="jsD-Xs-k2s" secondAttribute="leadingMargin" id="os3-EF-VZ6"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="jsD-Xs-k2s" secondAttribute="leadingMargin" id="qM6-vD-14w"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="top" secondItem="jsD-Xs-k2s" secondAttribute="topMargin" id="uIe-TA-lh8"/>
+                                                <constraint firstItem="oOy-ek-kF6" firstAttribute="leading" secondItem="lK2-XC-LXe" secondAttribute="leading" id="v90-g2-rgd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -279,13 +279,18 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="locationTextField" destination="lK2-XC-LXe" id="Nw1-PN-7Aq"/>
+                        <outlet property="nameTextField" destination="f4L-Dz-NBH" id="gRU-5d-PD8"/>
+                        <outlet property="noButton" destination="S2V-mL-TOj" id="k6K-je-Aq9"/>
                         <outlet property="photoImageView" destination="yMB-Vc-wJ8" id="Stf-OE-Wec"/>
+                        <outlet property="typeTextField" destination="ffN-TN-byq" id="Oy2-gV-sSV"/>
+                        <outlet property="yesButton" destination="lr5-Bb-rGi" id="XLe-5L-uyQ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="gqd-Dx-onM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1353" y="-939"/>
+            <point key="canvasLocation" x="1352.8" y="-939.58020989505258"/>
         </scene>
         <!--Restaurant Detail View Controller-->
         <scene sceneID="Ryz-39-PCA">
