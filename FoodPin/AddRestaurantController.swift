@@ -87,5 +87,15 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     }
     
     @IBAction func toggleBeenHereButton(_ sender: UIButton) {
+        // Yes button clicked
+        if sender == yesButton {
+            isVisited = true
+            
+            yesButton.backgroundColor = UIColor(red: 218.0/255.0, green: 100.0/255.0, blue: 70.0/255.0, alpha: 1.0)
+            noButton.backgroundColor = UIColor(red: 218.0/255.0, green: 223.0/255.0, blue: 225.0/255.0, alpha: 1.0)
+        } else if sender == noButton {
+            yesButton.backgroundColor = UIColor(red: 218.0/255.0, green: 223.0/255.0, blue: 225.0/255.0, alpha: 1.0)
+            noButton.backgroundColor = UIColor(red: 218.0/255.0, green: 100.0/255.0, blue: 70.0/255.0, alpha: 1.0)
+        }
     }
 }
