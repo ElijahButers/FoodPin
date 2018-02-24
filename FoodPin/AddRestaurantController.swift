@@ -17,6 +17,8 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     @IBOutlet var yesButton: UIButton!
     @IBOutlet var noButton: UIButton!
     
+    var isVisited = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
