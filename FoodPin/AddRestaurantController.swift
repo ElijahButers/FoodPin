@@ -81,6 +81,9 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
             present(alertController, animated: true, completion: nil)
             
             return
-        }
+            }
+    }
+    
+    @IBAction func toggleBeenHereButton(_ sender: UIButton) {
     }
 }

@@ -250,6 +250,9 @@
                                                     <state key="normal" title="YES">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="F51-qK-kLU"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2V-mL-TOj">
                                                     <rect key="frame" x="70" y="35" width="46" height="30"/>
@@ -258,6 +261,9 @@
                                                     <state key="normal" title="NO">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="fJy-Xc-8U6"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
