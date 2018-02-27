@@ -31,7 +31,7 @@ class ReviewViewController: UIViewController {
 //        containerView.transform = combineTransform
         
         if let restaurant = restaurant {
-            restaurantImageView.image = UIImage(named: restaurant.image)
+            restaurantImageView.image = UIImage(data: restaurant.image!)
         }
     }
 
