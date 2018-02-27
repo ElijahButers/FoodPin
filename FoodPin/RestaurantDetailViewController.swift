@@ -33,7 +33,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         
         // Geocoding
         let geoCoder = CLGeocoder()
-        geoCoder.geocodeAddressString(restaurant.location, completionHandler: { placemarks, error in
+        geoCoder.geocodeAddressString(restaurant.location!, completionHandler: { placemarks, error in
             if error != nil {
                 print(error!)
                 return
@@ -58,7 +58,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
             }
         })
         
-        restaurantImageView.image = UIImage(named: restaurant.image)
+        restaurantImageView.image = UIImage(data: restaurant.image!)
         
         tableView.backgroundColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.2)
         tableView.separatorColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/250.0, alpha: 0.2)
