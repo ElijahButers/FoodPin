@@ -25,7 +25,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         // Convert address to coordinate and annotate it on map
         let geoCoder = CLGeocoder()
-        geoCoder.geocodeAddressString(restaurant.location, completionHandler: { placemarks, error in
+        geoCoder.geocodeAddressString(restaurant.location!, completionHandler: { placemarks, error in
             if error != nil {
                 print(error!)
                 return
