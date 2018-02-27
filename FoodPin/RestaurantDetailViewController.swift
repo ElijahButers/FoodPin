@@ -15,7 +15,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     @IBOutlet var tableView: UITableView!
     @IBOutlet var mapView: MKMapView!
     
-    var restaurant: Restaurant!
+    var restaurant: RestaurantMO!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
