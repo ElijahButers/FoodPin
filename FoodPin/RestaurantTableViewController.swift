@@ -78,7 +78,7 @@ class RestaurantTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.nameLabel.text = restaurants[indexPath.row].name
-        cell.thumbnailImageView.image = UIImage(data: restaurants[indexPath.row].image as! Data)
+        cell.thumbnailImageView.image = UIImage(data: restaurants[indexPath.row].image!)
         cell.thumbnailImageView.layer.cornerRadius = 30
         cell.thumbnailImageView.clipsToBounds = true
         cell.locationLabel.text = restaurants[indexPath.row].location
@@ -119,8 +119,8 @@ class RestaurantTableViewController: UITableViewController {
         // Social sharing button
         let shareAction = UITableViewRowAction(style: .default, title: "Share", handler: { (action, indexPath) -> Void in
             
-            let defaultText = "Just check in at" + self.restaurants[indexPath.row].name
-            if let imageToShare = UIImage(named: self.restaurants[indexPath.row].image) {
+            let defaultText = "Just check in at" + self.restaurants[indexPath.row].name!
+            if let imageToShare = UIImage(data: (self.restaurants[indexPath.row].image)!) {
                 let activityController = UIActivityViewController(activityItems: [defaultText, imageToShare], applicationActivities: nil)
                 self.present(activityController, animated: true, completion: nil)
             }
