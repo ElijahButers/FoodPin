@@ -14,7 +14,7 @@ class ReviewViewController: UIViewController {
     @IBOutlet var containerView: UIView!
     @IBOutlet var restaurantImageView: UIImageView!
     
-    var restaurant: Restaurant!
+    var restaurant: RestaurantMO!
     
     override func viewDidLoad() {
         super.viewDidLoad()
