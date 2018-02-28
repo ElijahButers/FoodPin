@@ -86,6 +86,22 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
             
             return
             }
+        
+        if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
+            restaurant = RestaurantMO(context: appDelegate.persistentContainer.viewContext)
+            restaurant.name = nameTextField.text
+            restaurant.type = typeTextField.text
+            restaurant.location = locationTextField.text
+            restaurant.isVisited = isVisited
+            
+            if let restaurantImage = photoImageView.image {
+                if let imageData = UIImagePNGRepresentation(restaurantImage) {
+                    restaurant.image = NSData(data: imageData) as Data
+                }
+            }
+            print("Saving data to context...")
+            appDelegate.saveContext()
+        }
     }
     
     @IBAction func toggleBeenHereButton(_ sender: UIButton) {
