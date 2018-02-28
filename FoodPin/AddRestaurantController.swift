@@ -102,6 +102,7 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
             print("Saving data to context...")
             appDelegate.saveContext()
         }
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func toggleBeenHereButton(_ sender: UIButton) {
