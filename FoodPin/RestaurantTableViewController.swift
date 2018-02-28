@@ -56,6 +56,11 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         
         // Remove the title of the back button
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
+        // Fetch data from data store
+        let fetchRequest: NSFetchRequest<RestaurantMO> = RestaurantMO.fetchRequest()
+        let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor]
     }
 
     override func didReceiveMemoryWarning() {
