@@ -163,6 +163,18 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         return[deleteAction, shareAction]
     }
     
+    // Controller's fetch results methods
+    func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+        
+    }
+    
+    func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+        
+    }
+    
+    func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+        
+    }
 
     /*
     // Override to support conditional editing of the table view.
