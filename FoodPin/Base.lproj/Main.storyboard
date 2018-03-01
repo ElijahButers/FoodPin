@@ -327,9 +327,11 @@
                     <connections>
                         <outlet property="locationTextField" destination="lK2-XC-LXe" id="Nw1-PN-7Aq"/>
                         <outlet property="nameTextField" destination="f4L-Dz-NBH" id="gRU-5d-PD8"/>
+                        <outlet property="noButton" destination="d8z-vE-hfD" id="Zgn-KS-f0L"/>
                         <outlet property="phoneTextField" destination="5cC-y3-nhR" id="Ghr-pA-FGq"/>
                         <outlet property="photoImageView" destination="yMB-Vc-wJ8" id="Stf-OE-Wec"/>
                         <outlet property="typeTextField" destination="ffN-TN-byq" id="Oy2-gV-sSV"/>
+                        <outlet property="yesButton" destination="e2F-Fo-3QA" id="IQ8-7I-sQX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
