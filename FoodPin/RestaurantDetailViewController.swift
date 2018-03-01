@@ -122,6 +122,11 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
             default: break
             }
         }
+        
+        if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
+            appDelegate.saveContext()
+        }
+        
         tableView.reloadData()
     }
     
