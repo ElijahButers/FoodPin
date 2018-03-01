@@ -236,14 +236,48 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HAVE YOU BEEN HERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="z2c-m1-oHt">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Restaurant Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5cC-y3-nhR">
+                                                    <rect key="frame" x="16" y="31" width="339" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHONE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="IqY-TZ-v7T">
+                                                    <rect key="frame" x="16" y="11" width="87" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="87" id="QV4-pd-xRv"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5cC-y3-nhR" firstAttribute="bottom" secondItem="hoJ-jx-GMM" secondAttribute="bottomMargin" id="660-FH-1DQ"/>
+                                                <constraint firstItem="5cC-y3-nhR" firstAttribute="top" secondItem="hoJ-jx-GMM" secondAttribute="topMargin" constant="20" id="9Nl-PY-Hlj"/>
+                                                <constraint firstItem="IqY-TZ-v7T" firstAttribute="leading" secondItem="hoJ-jx-GMM" secondAttribute="leadingMargin" id="GFl-ZX-qd9"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5cC-y3-nhR" secondAttribute="trailing" constant="4" id="QRf-iQ-68B"/>
+                                                <constraint firstItem="IqY-TZ-v7T" firstAttribute="leading" secondItem="5cC-y3-nhR" secondAttribute="leading" id="WGG-5w-qSy"/>
+                                                <constraint firstItem="IqY-TZ-v7T" firstAttribute="top" secondItem="hoJ-jx-GMM" secondAttribute="topMargin" id="cdo-kU-hSJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="IqY-TZ-v7T" secondAttribute="bottom" constant="29" id="zv5-Fl-WGC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="ECa-OC-OXj">
+                                        <rect key="frame" x="0.0" y="538" width="375" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ECa-OC-OXj" id="mTS-mD-Yy8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HAVE YOU BEEN HERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="eCS-v7-hYq">
                                                     <rect key="frame" x="16" y="11" width="185" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lr5-Bb-rGi">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2F-Fo-3QA">
                                                     <rect key="frame" x="16" y="36" width="46" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -251,10 +285,10 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="F51-qK-kLU"/>
+                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="Oz5-nE-yvv"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2V-mL-TOj">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8z-vE-hfD">
                                                     <rect key="frame" x="70" y="35" width="46" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -262,7 +296,7 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="fJy-Xc-8U6"/>
+                                                        <action selector="toggleBeenHereButton:" destination="kRM-OA-YMa" eventType="touchUpInside" id="ZKA-Zi-hbb"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -293,10 +327,8 @@
                     <connections>
                         <outlet property="locationTextField" destination="lK2-XC-LXe" id="Nw1-PN-7Aq"/>
                         <outlet property="nameTextField" destination="f4L-Dz-NBH" id="gRU-5d-PD8"/>
-                        <outlet property="noButton" destination="S2V-mL-TOj" id="k6K-je-Aq9"/>
                         <outlet property="photoImageView" destination="yMB-Vc-wJ8" id="Stf-OE-Wec"/>
                         <outlet property="typeTextField" destination="ffN-TN-byq" id="Oy2-gV-sSV"/>
-                        <outlet property="yesButton" destination="lr5-Bb-rGi" id="XLe-5L-uyQ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSG-XM-5AP" userLabel="First Responder" sceneMemberID="firstResponder"/>
