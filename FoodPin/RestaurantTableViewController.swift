@@ -193,7 +193,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     }
     
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
-        
+        tableView.endUpdates()
     }
 
     /*
