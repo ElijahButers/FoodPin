@@ -327,6 +327,7 @@
                     <connections>
                         <outlet property="locationTextField" destination="lK2-XC-LXe" id="Nw1-PN-7Aq"/>
                         <outlet property="nameTextField" destination="f4L-Dz-NBH" id="gRU-5d-PD8"/>
+                        <outlet property="phoneTextField" destination="5cC-y3-nhR" id="Ghr-pA-FGq"/>
                         <outlet property="photoImageView" destination="yMB-Vc-wJ8" id="Stf-OE-Wec"/>
                         <outlet property="typeTextField" destination="ffN-TN-byq" id="Oy2-gV-sSV"/>
                     </connections>

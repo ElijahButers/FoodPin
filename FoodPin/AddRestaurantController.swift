@@ -15,6 +15,7 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var typeTextField: UITextField!
     @IBOutlet var locationTextField: UITextField!
+    @IBOutlet var phoneTextField: UITextField!
     @IBOutlet var yesButton: UIButton!
     @IBOutlet var noButton: UIButton!
     
