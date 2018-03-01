@@ -79,7 +79,7 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     
     @IBAction func save(_ sender: UIBarButtonItem) {
         
-        if nameTextField.text == "" || typeTextField.text == "" || locationTextField.text == "" {
+        if nameTextField.text == "" || typeTextField.text == "" || locationTextField.text == "" || phoneTextField.text == ""{
             let alertController = UIAlertController(title: "Oops", message: "We can't proceed because one of the fields is blank. Please note that all fields are required.", preferredStyle: .alert)
             let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(alertAction)
