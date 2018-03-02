@@ -102,8 +102,6 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         // Configure the cell...
         cell.nameLabel.text = restaurants[indexPath.row].name
         cell.thumbnailImageView.image = UIImage(data: restaurants[indexPath.row].image!)
-        cell.thumbnailImageView.layer.cornerRadius = 30
-        cell.thumbnailImageView.clipsToBounds = true
         cell.locationLabel.text = restaurants[indexPath.row].location
         cell.typeLabel.text = restaurants[indexPath.row].type
         cell.accessoryType = restaurants[indexPath.row].isVisited ? .checkmark : .none
