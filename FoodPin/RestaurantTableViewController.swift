@@ -112,11 +112,11 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         let restaurant = searchController.isActive ? searchResults[indexPath.row] : restaurants[indexPath.row]
 
         // Configure the cell...
-        cell.nameLabel.text = restaurants[indexPath.row].name
-        cell.thumbnailImageView.image = UIImage(data: restaurants[indexPath.row].image!)
-        cell.locationLabel.text = restaurants[indexPath.row].location
-        cell.typeLabel.text = restaurants[indexPath.row].type
-        cell.accessoryType = restaurants[indexPath.row].isVisited ? .checkmark : .none
+        cell.nameLabel.text = restaurant.name
+        cell.thumbnailImageView.image = UIImage(data: restaurant.image!)
+        cell.locationLabel.text = restaurant.location
+        cell.typeLabel.text = restaurant.type
+        cell.accessoryType = restaurant.isVisited ? .checkmark : .none
 
         return cell
     }
