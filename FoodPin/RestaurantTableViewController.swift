@@ -257,5 +257,10 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         tableView.endUpdates()
     }
+    
+    // Filtering seach content
+    func filterContent(for searchContent: String) {
+        
+    }
 
 }
