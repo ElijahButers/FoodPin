@@ -98,7 +98,11 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return restaurants.count
+        if searchController.isActive {
+            return searchResults.count
+        } else {
+            return restaurants.count
+        }
     }
 
     
