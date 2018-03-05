@@ -104,10 +104,12 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
             return restaurants.count
         }
     }
-
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! RestaurantTableViewCell
+        
+        // Determine if we get the restaurant from search result or the original array
+        let restaurant = searchController.isActive ? searchResults[indexPath.row] : restaurants[indexPath.row]
 
         // Configure the cell...
         cell.nameLabel.text = restaurants[indexPath.row].name
