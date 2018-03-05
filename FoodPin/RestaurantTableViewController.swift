@@ -39,6 +39,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     
     var fetchResultController: NSFetchedResultsController<RestaurantMO>!
     var searchController: UISearchController!
+    var searchResults: [RestaurantMO] = []
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
