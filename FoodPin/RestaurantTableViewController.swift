@@ -272,6 +272,10 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     
     func updateSearchResults(for searchController: UISearchController) {
         
+        if let searchText = searchController.searchBar.text {
+            filterContent(for: searchText)
+            tableView.reloadData()
+        }
     }
 
 }
