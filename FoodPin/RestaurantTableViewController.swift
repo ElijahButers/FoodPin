@@ -269,5 +269,9 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
             return false
         })
     }
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        
+    }
 
 }
