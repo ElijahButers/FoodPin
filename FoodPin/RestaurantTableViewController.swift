@@ -82,6 +82,8 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         // UISearchController
         searchController = UISearchController(searchResultsController: nil)
         tableView.tableHeaderView = searchController.searchBar
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
     }
 
     override func didReceiveMemoryWarning() {
